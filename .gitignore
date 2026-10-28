@@ -1,0 +1,12 @@
+# Raw datasets: download locally, do not commit
+data/raw/chordonomicon/
+*.csv
+*.parquet
+
+data/raw/irealpro/
+*.csv
+*.parquet
+
+# Keep small, intentional processed artifacts if needed
+!data/processed/transition_matrix.csv
+!data/processed/chord_vocabulary.json
